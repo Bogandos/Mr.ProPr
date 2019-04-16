@@ -1,0 +1,213 @@
+[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/5/",
+        "response": "5",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/8/",
+        "response": "8",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/quadratic/url?a=1&b=4&c=2",
+        "response": {
+            "x1": -0.5857864376269,
+            "x2": -3.4142135623731
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/weekday/url?date=30.12.1998",
+        "response": "Wednesday",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3",
+        "response": 2,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/5",
+        "response": 5,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/8/",
+        "response": "8",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/5",
+        "response": 5,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3",
+        "response": 2,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/0",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3/",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3/",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3/",
+        "response": 2,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3",
+        "response": 2,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/8/",
+        "response": "8",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/8",
+        "response": "8",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/7",
+        "response": "7",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/102",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/01",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/102",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/102",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/01",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/01",
+        "response": "Республика Адыгея",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/72",
+        "response": "Тюменская область",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/5",
+        "response": {
+            "error": "No mobiles found!"
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/fibonacci/3",
+        "response": 2,
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/path/parameter/8/",
+        "response": "8",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/quadratic/url?a=1&b=4&c=2",
+        "response": {
+            "x1": -0.5857864376269,
+            "x2": -3.4142135623731
+        },
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/region/01",
+        "response": "Республика Адыгея",
+        "method": "GET"
+    }
+]\n[
+    {
+        "url": "localhost/ProPr/lab1/weekday/url?date=30.12.1998",
+        "response": "Wednesday",
+        "method": "GET"
+    }
+]\n
