@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# пример запроса для проверки корректной отработки функции http://localhost/ProPr/lab1/path/parameter/2/
+# в результате в json-файл запишется "2"
+RewriteRule ^path/parameter/([0-9]+)   RestController.php?view=path&id=$1 [nc,qsa]
+RewriteRule ^quadratic/ RestController.php?view=quadratic&a=$1&b=$4&c=$2 [nc,qsa]
+RewriteRule ^weekday/ RestController.php?view=date&date=$12.12.2028 [nc,qsa]
+RewriteRule ^fibonacci/([0-9]+) RestController.php?view=fibonacci&id=$1 [nc,qsa]
+RewriteRule ^region/([0-9]+) RestController.php?view=region&id=$1 [nc,qsa]
