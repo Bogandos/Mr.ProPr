@@ -1,0 +1,24 @@
+﻿#ForceTypeapplication/x-httpd-php
+
+Options +FollowSymlinks
+RewriteEngine on
+AddDefaultCharset UTF-8
+
+RewriteRule ^clients-insert/name/([^/]+) clients.php?name=$1 [L,QSA] 	#http://localhost/ProPr/lab2/clients-insert/name/Парастаев Олег Андреевич
+RewriteRule ^clients/id/([0-9]+)  clients.php?id=$1 [L,QSA] 		#http://localhost/ProPr/lab2/clients/id/2
+RewriteRule ^clients clients.php? [L,QSA] 				#http://localhost/ProPr/lab2/clients
+RewriteRule ^clients-update/ clients.php?clients-update&id=$1&name=$2 [L,QSA] #http://localhost/ProPr/lab2/clients-update/url?id=7&name=Малоян Виктор Павлович#
+RewriteRule ^clients-delete/ clients.php?clients-delete&id=$1 [L,QSA] 	#http://localhost/ProPr/lab2/clients-delete/url?id=5
+
+RewriteRule ^services-insert/ services.php?services-insert&name=$1&price=$2 [L,QSA] #http://localhost/ProPr/lab2/services-insert/url?name=Выгул собак&price=1500
+RewriteRule ^services/id/([0-9]+)  services.php?id=$1 [L,QSA] 		#http://localhost/ProPr/lab2/services/id/2
+RewriteRule ^services services.php? [L,QSA]				#http://localhost/ProPr/lab2/services
+RewriteRule ^services-update/ services.php?services-update&id=$1&name=$2&price=$3 [L,QSA] #http://localhost/ProPr/lab2/clients-update/url?id=7&name=Выгул собак&price=1250 (если требуется обновить только один параметр, то его можно убрать из запроса)#
+RewriteRule ^services-delete/ services.php?services-delete&id=$1 [L,QSA] #http://localhost/ProPr/lab2/services-delete/url?id=5
+
+RewriteRule ^requests/id/([0-9]+)  requests.php?id=$1 [L,QSA] 		#http://localhost/ProPr/lab2/requests/id/2
+RewriteRule ^requests requests.php? [L,QSA]				#http://localhost/ProPr/lab2/requests
+RewriteRule ^requests-insert/ requests.php?requests-insert&client_id=$1&request_id=$2&service_id=$3&count=$4 [L,QSA] #http://localhost/ProPr/lab2/requests-insert/url?client_id=7&request_id=7&service_id=6&count=1 (если требуется добавить только запрос, то параметры request_id, service_id и count можно убрать)#
+RewriteRule ^requests-update/ requests.php?requests-update&id=$1&client_id=$2 [L,QSA] #http://localhost/ProPr/lab2/requests-update/url?id=10&client_id=7#
+RewriteRule ^requests-delete/ requests.php?requests-delete&id=$1&request_id=$2&service_id=$3 [L,QSA] #http://localhost/ProPr/lab2/requests-delete/url?id=5&request_id=2&service_id=3 (для удаления только заявки нужно убрать параметры request_id и service_id)
+
