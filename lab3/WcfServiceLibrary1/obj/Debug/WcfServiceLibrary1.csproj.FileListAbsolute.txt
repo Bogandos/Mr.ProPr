@@ -1,0 +1,15 @@
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojAssemblyReference.cache
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\pvtty\source\repos\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojAssemblyReference.cache
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\OSPanel\domains\lab3\WcfServiceLibrary1\obj\Debug\XsdGeneratedCode\GeneratedXsdTypes.cs
