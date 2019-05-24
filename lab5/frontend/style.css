@@ -1,0 +1,44 @@
+h1
+{
+	color: #0047ab;
+	font-family: sans-serif;
+	text-align: center;
+    padding-top: 20px;
+}
+
+input
+{
+	margin-left: 5px;
+}
+
+#fieldset1
+{
+	float: left;
+}
+
+#fieldset2
+{
+	float: right;
+}
+
+#fieldset3
+{
+	float: left;
+	margin-top: 20px;
+}
+
+
+body
+{
+		background: #80daeb;
+}
+
+label
+{
+	color: #008b8b;
+}
+
+legend
+{
+	color: #003153;
+}
